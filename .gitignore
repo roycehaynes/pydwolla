@@ -1,0 +1,10 @@
+*.pyc
+pydwolla/*.pyc
+test/config.py
+test/fixtures/*.json
+
+*.json
+
+dwolla/test/config.py
+
+dwolla/test/config.py
