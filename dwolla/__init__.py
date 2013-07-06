@@ -379,7 +379,7 @@ class Transaction(Resource):
     @classmethod
     def stats(cls, **kwargs):
         params = {
-            'oauth_token': kwargs.get('oauth_token', kwargs.get('oauth_token', OAUTH_TOKEN),
+            'oauth_token': kwargs.get('oauth_token', OAUTH_TOKEN)
         }
 
         params.update({k:v for (k,v) in kwargs.items() if k not in data})

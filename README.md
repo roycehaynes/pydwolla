@@ -89,12 +89,14 @@ If successful, a dictionary will return in the following format:
 
 ```
 
-#### Step 4: Take a look at the examples.
+#### Step 4: Take a look at example.py
 
 
 ## Current Version
 
-0.1
+0.1.0
+
+Note: Using [semantic versioning](http://semver.org/)
 
 ## Author
 

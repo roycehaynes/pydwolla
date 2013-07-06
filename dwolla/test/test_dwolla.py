@@ -5,7 +5,7 @@ from urlparse import urlparse
 
 try:
     from config import *
-except:
+except ImportError:
     message = "To run tests, create config.py file inside test folder and define following test variables: \n\n"
     message += "                 CLIENT_ID \n \
                 CLIENT_SECRET \n \

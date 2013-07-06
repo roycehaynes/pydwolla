@@ -1,10 +1,9 @@
+/build
+/dist
+/MANIFEST.in
+/pydwolla.egg-info
+dwolla/test/config.py
+*.egg
 *.pyc
-pydwolla/*.pyc
-test/config.py
-test/fixtures/*.json
-
 *.json
 
-dwolla/test/config.py
-
-dwolla/test/config.py
