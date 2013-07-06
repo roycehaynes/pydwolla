@@ -28,7 +28,7 @@ Note: Pydwolla works on python v2.7.2 and greater.
 
 ```
 
-from pydwolla import dwolla
+import dwolla
 
 KEY = 'your client id here'
 SECRET = 'your client secret here'
